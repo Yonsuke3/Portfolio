@@ -1,0 +1,66 @@
+#navegador {
+    background: linear-gradient(rgb(2, 2, 36), rgba(0, 255, 0, 0.342));
+    height: 75px;
+    margin: 0px;
+}
+
+#lista {
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 350px;
+    align-items: center;
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(rgba(0, 275, 0, 0.600), rgb(0, 275, 0, 0.600));
+    font-family: cursive;
+}
+
+li {
+    color: rgb(215, 241, 222);
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: rgb(3, 8, 0);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#Icono {
+    width: 50px;
+}
+
+#Icono_CCs {
+    width: 50px;
+}
+
+#Todo_los_icono {
+    flex-direction: column;
+}
+
+#Icono_para_js {
+    width: 50px;
+}
+
+#Node_js {
+    width: 50px;
+}
